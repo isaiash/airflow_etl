@@ -1,0 +1,15 @@
+[2020-06-18 22:13:31,403] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T02:13:21.351822+00:00 [queued]>
+[2020-06-18 22:13:31,432] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T02:13:21.351822+00:00 [queued]>
+[2020-06-18 22:13:31,432] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 22:13:31,432] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 22:13:31,432] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 22:13:31,463] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-19T02:13:21.351822+00:00
+[2020-06-18 22:13:31,467] {standard_task_runner.py:53} INFO - Started process 28618 to run task
+[2020-06-18 22:13:31,562] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: recepcion.sensor 2020-06-19T02:13:21.351822+00:00 [running]> strx
+[2020-06-18 22:13:31,634] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 22:14:41,698] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (9th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (7th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (6th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (8th copy).slk']
+[2020-06-18 22:14:41,698] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (9th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (7th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (6th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (8th copy).slk']
+[2020-06-18 22:14:41,749] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=recepcion, task_id=sensor, execution_date=20200619T021321, start_date=20200619T021331, end_date=20200619T021441
+[2020-06-18 22:14:41,946] {logging_mixin.py:112} INFO - [2020-06-18 22:14:41,946] {local_task_job.py:103} INFO - Task exited with return code 0

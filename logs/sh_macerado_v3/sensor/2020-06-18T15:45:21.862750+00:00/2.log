@@ -1,0 +1,66 @@
+[2020-06-18 12:03:07,049] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado_v3.sensor 2020-06-18T15:45:21.862750+00:00 [queued]>
+[2020-06-18 12:03:07,056] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado_v3.sensor 2020-06-18T15:45:21.862750+00:00 [queued]>
+[2020-06-18 12:03:07,056] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 12:03:07,056] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-06-18 12:03:07,057] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 12:03:07,300] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-18T15:45:21.862750+00:00
+[2020-06-18 12:03:07,302] {standard_task_runner.py:53} INFO - Started process 25737 to run task
+[2020-06-18 12:03:07,473] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sh_macerado_v3.sensor 2020-06-18T15:45:21.862750+00:00 [running]> strx
+[2020-06-18 12:03:07,484] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 13:24:16,621] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (5th copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (4th copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (3rd copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (6th copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41.sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (another copy).sho']
+[2020-06-18 13:24:16,669] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (5th copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (4th copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (3rd copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (6th copy).sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41.sho', '/home/isaias/cmpc_data/SH/ZemBoo/Out/Macerado/macerado-2020-06-08-18-21-41 (another copy).sho']
+[2020-06-18 13:24:16,672] {taskinstance.py:1145} ERROR - (sqlite3.OperationalError) no such table: xcom
+[SQL: DELETE FROM xcom WHERE xcom."key" = ? AND xcom.execution_date = ? AND xcom.task_id = ? AND xcom.dag_id = ?]
+[parameters: ('return_value', '2020-06-18 15:45:21.862750', 'sensor', 'sh_macerado_v3')]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+Traceback (most recent call last):
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: xcom
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 987, in _run_raw_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1515, in xcom_push
+    execution_date=execution_date or self.execution_date)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/xcom.py", line 110, in set
+    cls.dag_id == dag_id).delete()
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3791, in delete
+    delete_op.exec_()
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1697, in exec_
+    self._do_exec()
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1928, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1702, in _execute_stmt
+    self.result = self.query._execute_crud(stmt, self.mapper)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3438, in _execute_crud
+    return conn.execute(stmt, self._params)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 984, in execute
+    return meth(self, multiparams, params)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1103, in _execute_clauseelement
+    distilled_params,
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1288, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1482, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 590, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: xcom
+[SQL: DELETE FROM xcom WHERE xcom."key" = ? AND xcom.execution_date = ? AND xcom.task_id = ? AND xcom.dag_id = ?]
+[parameters: ('return_value', '2020-06-18 15:45:21.862750', 'sensor', 'sh_macerado_v3')]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-18 13:24:17,672] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=sh_macerado_v3, task_id=sensor, execution_date=20200618T154521, start_date=20200618T160307, end_date=20200618T172417

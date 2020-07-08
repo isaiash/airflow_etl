@@ -1,0 +1,19 @@
+[2020-05-05 19:31:30,010] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2020-05-03T00:00:00+00:00 [queued]>
+[2020-05-05 19:31:30,019] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2020-05-03T00:00:00+00:00 [queued]>
+[2020-05-05 19:31:30,020] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-05 19:31:30,020] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-05-05 19:31:30,020] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-05 19:31:30,169] {taskinstance.py:900} INFO - Executing <Task(BashOperator): run_after_loop> on 2020-05-03T00:00:00+00:00
+[2020-05-05 19:31:30,173] {standard_task_runner.py:53} INFO - Started process 12229 to run task
+[2020-05-05 19:31:30,385] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: example_bash_operator.run_after_loop 2020-05-03T00:00:00+00:00 [running]> strx
+[2020-05-05 19:31:30,396] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-05-05 19:31:30,396] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmppokb2k0p/run_after_loopl28ec9_n
+[2020-05-05 19:31:30,396] {bash_operator.py:115} INFO - Running command: echo 1
+[2020-05-05 19:31:30,401] {bash_operator.py:122} INFO - Output:
+[2020-05-05 19:31:30,402] {bash_operator.py:126} INFO - 1
+[2020-05-05 19:31:30,402] {bash_operator.py:130} INFO - Command exited with return code 0
+[2020-05-05 19:31:30,408] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=example_bash_operator, task_id=run_after_loop, execution_date=20200503T000000, start_date=20200505T233130, end_date=20200505T233130
+[2020-05-05 19:31:39,889] {logging_mixin.py:112} INFO - [2020-05-05 19:31:39,888] {local_task_job.py:103} INFO - Task exited with return code 0

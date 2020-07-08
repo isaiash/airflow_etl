@@ -1,0 +1,21 @@
+[2020-06-17 19:35:10,688] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MIS_v2.trigger_rerun 2020-06-17T23:29:06.869499+00:00 [queued]>
+[2020-06-17 19:35:10,698] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MIS_v2.trigger_rerun 2020-06-17T23:29:06.869499+00:00 [queued]>
+[2020-06-17 19:35:10,698] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-17 19:35:10,698] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-06-17 19:35:10,698] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-17 19:35:10,849] {taskinstance.py:900} INFO - Executing <Task(TriggerDagRunOperator): trigger_rerun> on 2020-06-17T23:29:06.869499+00:00
+[2020-06-17 19:35:10,852] {standard_task_runner.py:53} INFO - Started process 9978 to run task
+[2020-06-17 19:35:11,028] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MIS_v2.trigger_rerun 2020-06-17T23:29:06.869499+00:00 [running]> strx
+[2020-06-17 19:35:11,043] {taskinstance.py:1145} ERROR - Dag id MIS_sensor not found in DagModel
+Traceback (most recent call last):
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/dagrun_operator.py", line 95, in execute
+    replace_microseconds=False)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/api/common/experimental/trigger_dag.py", line 124, in trigger_dag
+    raise DagNotFound("Dag id {} not found in DagModel".format(dag_id))
+airflow.exceptions.DagNotFound: Dag id MIS_sensor not found in DagModel
+[2020-06-17 19:35:11,044] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=MIS_v2, task_id=trigger_rerun, execution_date=20200617T232906, start_date=20200617T233510, end_date=20200617T233511
+[2020-06-17 19:35:20,476] {logging_mixin.py:112} INFO - [2020-06-17 19:35:20,475] {local_task_job.py:103} INFO - Task exited with return code 1

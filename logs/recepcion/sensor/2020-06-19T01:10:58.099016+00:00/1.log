@@ -1,0 +1,14 @@
+[2020-06-18 21:11:03,963] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T01:10:58.099016+00:00 [queued]>
+[2020-06-18 21:11:03,995] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T01:10:58.099016+00:00 [queued]>
+[2020-06-18 21:11:03,996] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:11:03,996] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:11:03,996] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:11:04,014] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-19T01:10:58.099016+00:00
+[2020-06-18 21:11:04,018] {standard_task_runner.py:53} INFO - Started process 24119 to run task
+[2020-06-18 21:11:04,090] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: recepcion.sensor 2020-06-19T01:10:58.099016+00:00 [running]> strx
+[2020-06-18 21:11:04,120] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 21:26:34,897] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (3rd copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (6th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634.slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (9th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (another copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (8th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (5th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (4th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (7th copy).slk']
+[2020-06-18 21:26:34,897] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (3rd copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (6th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634.slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (9th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (another copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (8th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (5th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (4th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (7th copy).slk']
+[2020-06-18 21:26:35,037] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=recepcion, task_id=sensor, execution_date=20200619T011058, start_date=20200619T011103, end_date=20200619T012635

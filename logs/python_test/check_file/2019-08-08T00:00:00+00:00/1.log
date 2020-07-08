@@ -1,0 +1,17 @@
+[2020-06-08 09:19:43,990] {logging_mixin.py:112} INFO - Sending to executor.
+[2020-06-08 09:19:43,990] {logging_mixin.py:112} INFO - [2020-06-08 09:19:43,990] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'python_test', 'check_file', '2019-08-08T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/example_python.py']
+[2020-06-08 09:19:43,991] {logging_mixin.py:112} INFO - [2020-06-08 09:19:43,990] {sequential_executor.py:45} INFO - Executing command: ['airflow', 'run', 'python_test', 'check_file', '2019-08-08T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/example_python.py']
+[2020-06-08 09:19:45,501] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: python_test.check_file 2019-08-08T00:00:00+00:00 [None]>
+[2020-06-08 09:19:45,507] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: python_test.check_file 2019-08-08T00:00:00+00:00 [None]>
+[2020-06-08 09:19:45,507] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-08 09:19:45,507] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-08 09:19:45,507] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-08 09:19:45,661] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): check_file> on 2019-08-08T00:00:00+00:00
+[2020-06-08 09:19:45,663] {standard_task_runner.py:53} INFO - Started process 961 to run task
+[2020-06-08 09:19:45,839] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: python_test.check_file 2019-08-08T00:00:00+00:00 [running]> strx
+[2020-06-08 09:19:45,848] {logging_mixin.py:112} INFO - check_change 2019-08-08
+[2020-06-08 09:19:50,854] {python_operator.py:114} INFO - Done. Returned value was: check_change
+[2020-06-08 09:19:50,981] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=python_test, task_id=check_file, execution_date=20190808T000000, start_date=20200608T131945, end_date=20200608T131950
+[2020-06-08 09:19:55,302] {logging_mixin.py:112} INFO - [2020-06-08 09:19:55,302] {local_task_job.py:103} INFO - Task exited with return code 0

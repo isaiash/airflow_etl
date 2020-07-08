@@ -1,0 +1,30 @@
+[2020-06-18 15:13:43,057] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_preprensa_v1.sensor 2020-06-18T18:50:30.513458+00:00 [queued]>
+[2020-06-18 15:13:43,942] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_preprensa_v1.sensor 2020-06-18T18:50:30.513458+00:00 [queued]>
+[2020-06-18 15:13:43,942] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 15:13:43,942] {taskinstance.py:880} INFO - Starting attempt 2 of 3
+[2020-06-18 15:13:43,942] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 15:13:44,066] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-18T18:50:30.513458+00:00
+[2020-06-18 15:13:44,071] {standard_task_runner.py:53} INFO - Started process 3046 to run task
+[2020-06-18 15:13:44,930] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sh_preprensa_v1.sensor 2020-06-18T18:50:30.513458+00:00 [running]> strx
+[2020-06-18 15:13:46,236] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 15:16:16,043] {logging_mixin.py:112} INFO - [2020-06-18 15:16:16,041] {local_task_job.py:167} WARNING - State of this instance has been externally set to None. Taking the poison pill.
+[2020-06-18 15:16:16,077] {helpers.py:325} INFO - Sending Signals.SIGTERM to GPID 3046
+[2020-06-18 15:16:16,078] {taskinstance.py:954} ERROR - Received SIGTERM. Terminating subprocesses.
+[2020-06-18 15:16:16,087] {taskinstance.py:1145} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/isaias/airflow/dags/extract_SH_preprensa.py", line 112, in sensor
+    sleep(5)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 956, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2020-06-18 15:16:16,089] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=sh_preprensa_v1, task_id=sensor, execution_date=20200618T185030, start_date=20200618T191343, end_date=20200618T191616
+[2020-06-18 15:16:16,210] {helpers.py:291} INFO - Process psutil.Process(pid=3046, status='terminated') (3046) terminated with exit code 1
+[2020-06-18 15:16:21,028] {logging_mixin.py:112} INFO - [2020-06-18 15:16:21,028] {local_task_job.py:103} INFO - Task exited with return code 1

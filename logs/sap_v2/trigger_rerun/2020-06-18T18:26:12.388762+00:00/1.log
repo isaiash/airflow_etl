@@ -1,0 +1,13 @@
+[2020-06-18 14:26:42,449] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sap_v2.trigger_rerun 2020-06-18T18:26:12.388762+00:00 [queued]>
+[2020-06-18 14:26:42,492] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sap_v2.trigger_rerun 2020-06-18T18:26:12.388762+00:00 [queued]>
+[2020-06-18 14:26:42,492] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 14:26:42,492] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 14:26:42,492] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 14:26:42,508] {taskinstance.py:900} INFO - Executing <Task(TriggerDagRunOperator): trigger_rerun> on 2020-06-18T18:26:12.388762+00:00
+[2020-06-18 14:26:42,513] {standard_task_runner.py:53} INFO - Started process 26723 to run task
+[2020-06-18 14:26:42,594] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sap_v2.trigger_rerun 2020-06-18T18:26:12.388762+00:00 [running]> strx
+[2020-06-18 14:26:42,637] {logging_mixin.py:112} INFO - [2020-06-18 14:26:42,636] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/extract_SAP.py
+[2020-06-18 14:26:42,730] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=sap_v2, task_id=trigger_rerun, execution_date=20200618T182612, start_date=20200618T182642, end_date=20200618T182642
+[2020-06-18 14:26:52,424] {logging_mixin.py:112} INFO - [2020-06-18 14:26:52,423] {local_task_job.py:103} INFO - Task exited with return code 0

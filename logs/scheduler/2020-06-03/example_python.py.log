@@ -1,0 +1,416 @@
+[2020-06-03 18:40:14,961] {scheduler_job.py:154} INFO - Started process (PID=12761) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:40:14,963] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:40:14,964] {logging_mixin.py:112} INFO - [2020-06-03 18:40:14,964] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:40:14,969] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:40:14,978] {logging_mixin.py:112} INFO - [2020-06-03 18:40:14,978] {dag.py:1501} INFO - Creating ORM DAG for python_test
+[2020-06-03 18:40:15,123] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.162 seconds
+[2020-06-03 18:41:05,193] {scheduler_job.py:154} INFO - Started process (PID=12879) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:41:05,195] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:41:05,195] {logging_mixin.py:112} INFO - [2020-06-03 18:41:05,195] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:41:05,199] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:41:05,380] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.187 seconds
+[2020-06-03 18:41:55,049] {scheduler_job.py:154} INFO - Started process (PID=13018) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:41:55,051] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:41:55,051] {logging_mixin.py:112} INFO - [2020-06-03 18:41:55,051] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:41:55,055] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:41:55,182] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.133 seconds
+[2020-06-03 18:42:45,104] {scheduler_job.py:154} INFO - Started process (PID=13121) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:42:45,107] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:42:45,108] {logging_mixin.py:112} INFO - [2020-06-03 18:42:45,107] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:42:45,113] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:42:45,256] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.151 seconds
+[2020-06-03 18:43:35,149] {scheduler_job.py:154} INFO - Started process (PID=13239) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:43:35,151] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:43:35,151] {logging_mixin.py:112} INFO - [2020-06-03 18:43:35,151] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:43:35,157] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:43:35,578] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.430 seconds
+[2020-06-03 18:44:25,201] {scheduler_job.py:154} INFO - Started process (PID=13338) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:44:25,203] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:44:25,204] {logging_mixin.py:112} INFO - [2020-06-03 18:44:25,203] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:44:25,208] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:44:25,350] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.149 seconds
+[2020-06-03 18:45:15,255] {scheduler_job.py:154} INFO - Started process (PID=13430) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:45:15,260] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:45:15,261] {logging_mixin.py:112} INFO - [2020-06-03 18:45:15,260] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:45:15,266] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:45:15,397] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.142 seconds
+[2020-06-03 18:46:05,542] {scheduler_job.py:154} INFO - Started process (PID=13528) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:46:05,545] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:46:05,545] {logging_mixin.py:112} INFO - [2020-06-03 18:46:05,545] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:46:05,550] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:46:05,684] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.141 seconds
+[2020-06-03 18:46:55,360] {scheduler_job.py:154} INFO - Started process (PID=13633) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:46:55,362] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:46:55,362] {logging_mixin.py:112} INFO - [2020-06-03 18:46:55,362] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:46:55,366] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:46:55,643] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.283 seconds
+[2020-06-03 18:47:45,415] {scheduler_job.py:154} INFO - Started process (PID=13733) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:47:45,418] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:47:45,418] {logging_mixin.py:112} INFO - [2020-06-03 18:47:45,418] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:47:45,424] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:47:45,611] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.197 seconds
+[2020-06-03 18:48:35,467] {scheduler_job.py:154} INFO - Started process (PID=13830) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:48:35,469] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:48:35,469] {logging_mixin.py:112} INFO - [2020-06-03 18:48:35,469] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:48:35,474] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:48:35,802] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.335 seconds
+[2020-06-03 18:49:25,523] {scheduler_job.py:154} INFO - Started process (PID=13935) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:49:25,525] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:49:25,525] {logging_mixin.py:112} INFO - [2020-06-03 18:49:25,525] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:49:25,529] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:49:25,680] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.157 seconds
+[2020-06-03 18:50:15,576] {scheduler_job.py:154} INFO - Started process (PID=14028) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:50:15,579] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:50:15,579] {logging_mixin.py:112} INFO - [2020-06-03 18:50:15,579] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:50:15,584] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:50:15,701] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.126 seconds
+[2020-06-03 18:51:05,812] {scheduler_job.py:154} INFO - Started process (PID=14132) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:51:05,815] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:51:05,815] {logging_mixin.py:112} INFO - [2020-06-03 18:51:05,815] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:51:05,820] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:51:05,984] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.171 seconds
+[2020-06-03 18:51:55,683] {scheduler_job.py:154} INFO - Started process (PID=14233) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:51:55,686] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:51:55,686] {logging_mixin.py:112} INFO - [2020-06-03 18:51:55,686] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:51:55,693] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:51:55,824] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.142 seconds
+[2020-06-03 18:52:45,738] {scheduler_job.py:154} INFO - Started process (PID=14345) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:52:45,741] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:52:45,741] {logging_mixin.py:112} INFO - [2020-06-03 18:52:45,741] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:52:45,745] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:52:45,866] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.128 seconds
+[2020-06-03 18:53:35,789] {scheduler_job.py:154} INFO - Started process (PID=14450) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:53:35,792] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:53:35,792] {logging_mixin.py:112} INFO - [2020-06-03 18:53:35,792] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:53:35,800] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:53:36,145] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.356 seconds
+[2020-06-03 18:54:25,842] {scheduler_job.py:154} INFO - Started process (PID=14549) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:54:25,846] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:54:25,847] {logging_mixin.py:112} INFO - [2020-06-03 18:54:25,846] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:54:25,854] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:54:26,003] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.162 seconds
+[2020-06-03 18:55:15,891] {scheduler_job.py:154} INFO - Started process (PID=14655) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:55:15,893] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:55:15,894] {logging_mixin.py:112} INFO - [2020-06-03 18:55:15,894] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:55:15,899] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:55:16,010] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.119 seconds
+[2020-06-03 18:56:06,130] {scheduler_job.py:154} INFO - Started process (PID=14771) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:56:06,133] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:56:06,133] {logging_mixin.py:112} INFO - [2020-06-03 18:56:06,133] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:56:06,142] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:56:06,281] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.151 seconds
+[2020-06-03 18:56:55,995] {scheduler_job.py:154} INFO - Started process (PID=14886) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:56:55,997] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:56:55,997] {logging_mixin.py:112} INFO - [2020-06-03 18:56:55,997] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:56:56,003] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:56:56,151] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.155 seconds
+[2020-06-03 18:57:46,049] {scheduler_job.py:154} INFO - Started process (PID=14989) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:57:46,052] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:57:46,053] {logging_mixin.py:112} INFO - [2020-06-03 18:57:46,052] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:57:46,059] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:57:46,194] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.145 seconds
+[2020-06-03 18:58:36,110] {scheduler_job.py:154} INFO - Started process (PID=15096) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:58:36,114] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:58:36,114] {logging_mixin.py:112} INFO - [2020-06-03 18:58:36,114] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:58:36,121] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:58:36,498] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.388 seconds
+[2020-06-03 18:59:26,154] {scheduler_job.py:154} INFO - Started process (PID=15198) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:59:26,158] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 18:59:26,158] {logging_mixin.py:112} INFO - [2020-06-03 18:59:26,158] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:59:26,169] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 18:59:26,345] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.191 seconds
+[2020-06-03 19:00:16,199] {scheduler_job.py:154} INFO - Started process (PID=15292) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:00:16,201] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:00:16,201] {logging_mixin.py:112} INFO - [2020-06-03 19:00:16,201] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:00:16,206] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:00:16,332] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.134 seconds
+[2020-06-03 19:01:06,448] {scheduler_job.py:154} INFO - Started process (PID=15383) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:01:06,450] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:01:06,450] {logging_mixin.py:112} INFO - [2020-06-03 19:01:06,450] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:01:06,456] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:01:06,589] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.141 seconds
+[2020-06-03 19:01:56,303] {scheduler_job.py:154} INFO - Started process (PID=15489) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:01:56,305] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:01:56,306] {logging_mixin.py:112} INFO - [2020-06-03 19:01:56,305] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:01:56,313] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:01:56,443] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.140 seconds
+[2020-06-03 19:02:46,359] {scheduler_job.py:154} INFO - Started process (PID=15646) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:02:46,362] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:02:46,362] {logging_mixin.py:112} INFO - [2020-06-03 19:02:46,362] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:02:46,371] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:02:46,555] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.196 seconds
+[2020-06-03 19:03:36,406] {scheduler_job.py:154} INFO - Started process (PID=15760) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:03:36,409] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:03:36,409] {logging_mixin.py:112} INFO - [2020-06-03 19:03:36,409] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:03:36,413] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:03:36,743] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.336 seconds
+[2020-06-03 19:04:26,461] {scheduler_job.py:154} INFO - Started process (PID=15876) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:04:26,465] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:04:26,466] {logging_mixin.py:112} INFO - [2020-06-03 19:04:26,466] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:04:26,470] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:04:26,607] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.146 seconds
+[2020-06-03 19:05:16,516] {scheduler_job.py:154} INFO - Started process (PID=15983) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:05:16,519] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:05:16,519] {logging_mixin.py:112} INFO - [2020-06-03 19:05:16,519] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:05:16,527] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:05:16,669] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.153 seconds
+[2020-06-03 19:06:06,805] {scheduler_job.py:154} INFO - Started process (PID=16083) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:06:06,807] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:06:06,807] {logging_mixin.py:112} INFO - [2020-06-03 19:06:06,807] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:06:06,812] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:06:06,944] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.139 seconds
+[2020-06-03 19:06:56,614] {scheduler_job.py:154} INFO - Started process (PID=16228) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:06:56,616] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:06:56,617] {logging_mixin.py:112} INFO - [2020-06-03 19:06:56,617] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:06:56,626] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:06:56,750] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.136 seconds
+[2020-06-03 19:07:46,672] {scheduler_job.py:154} INFO - Started process (PID=16343) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:07:46,675] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:07:46,675] {logging_mixin.py:112} INFO - [2020-06-03 19:07:46,675] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:07:46,679] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:07:46,855] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.183 seconds
+[2020-06-03 19:08:36,729] {scheduler_job.py:154} INFO - Started process (PID=16458) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:08:36,733] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:08:36,733] {logging_mixin.py:112} INFO - [2020-06-03 19:08:36,733] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:08:36,738] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:08:37,066] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.337 seconds
+[2020-06-03 19:09:26,775] {scheduler_job.py:154} INFO - Started process (PID=16793) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:09:26,778] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:09:26,779] {logging_mixin.py:112} INFO - [2020-06-03 19:09:26,779] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:09:26,784] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:09:26,935] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.160 seconds
+[2020-06-03 19:10:16,834] {scheduler_job.py:154} INFO - Started process (PID=16887) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:10:16,838] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:10:16,839] {logging_mixin.py:112} INFO - [2020-06-03 19:10:16,839] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:10:16,845] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:10:16,979] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.144 seconds
+[2020-06-03 19:11:08,626] {scheduler_job.py:154} INFO - Started process (PID=17143) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:11:08,673] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:11:08,674] {logging_mixin.py:112} INFO - [2020-06-03 19:11:08,674] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:11:08,954] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:11:09,212] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.585 seconds
+[2020-06-03 19:13:42,092] {scheduler_job.py:154} INFO - Started process (PID=17446) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:13:43,081] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:13:43,082] {logging_mixin.py:112} INFO - [2020-06-03 19:13:43,082] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:13:43,087] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:13:43,531] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 1.440 seconds
+[2020-06-03 19:18:33,919] {scheduler_job.py:154} INFO - Started process (PID=17607) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:18:33,921] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:18:33,921] {logging_mixin.py:112} INFO - [2020-06-03 19:18:33,921] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:18:33,925] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:18:34,069] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.150 seconds
+[2020-06-03 19:20:08,546] {scheduler_job.py:154} INFO - Started process (PID=17738) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:20:08,549] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:20:08,549] {logging_mixin.py:112} INFO - [2020-06-03 19:20:08,549] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:20:08,556] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:20:08,689] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.144 seconds
+[2020-06-03 19:20:58,595] {scheduler_job.py:154} INFO - Started process (PID=17835) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:20:58,597] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:20:58,597] {logging_mixin.py:112} INFO - [2020-06-03 19:20:58,597] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:20:58,601] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:20:59,671] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 1.076 seconds
+[2020-06-03 19:21:48,829] {scheduler_job.py:154} INFO - Started process (PID=17969) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:21:48,831] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:21:48,831] {logging_mixin.py:112} INFO - [2020-06-03 19:21:48,831] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:21:48,835] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:21:48,979] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.150 seconds
+[2020-06-03 19:22:38,692] {scheduler_job.py:154} INFO - Started process (PID=18049) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:22:38,695] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:22:38,695] {logging_mixin.py:112} INFO - [2020-06-03 19:22:38,695] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:22:38,706] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:22:38,875] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.183 seconds
+[2020-06-03 19:23:28,740] {scheduler_job.py:154} INFO - Started process (PID=18138) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:23:28,742] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:23:28,743] {logging_mixin.py:112} INFO - [2020-06-03 19:23:28,743] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:23:28,748] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:23:28,897] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.157 seconds
+[2020-06-03 19:24:18,797] {scheduler_job.py:154} INFO - Started process (PID=18304) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:24:18,799] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:24:18,800] {logging_mixin.py:112} INFO - [2020-06-03 19:24:18,800] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:24:18,804] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:24:19,576] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.779 seconds
+[2020-06-03 19:25:08,845] {scheduler_job.py:154} INFO - Started process (PID=18388) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:25:08,848] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:25:08,848] {logging_mixin.py:112} INFO - [2020-06-03 19:25:08,848] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:25:08,853] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:25:09,008] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.163 seconds
+[2020-06-03 19:25:58,902] {scheduler_job.py:154} INFO - Started process (PID=18477) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:25:58,905] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:25:58,905] {logging_mixin.py:112} INFO - [2020-06-03 19:25:58,905] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:25:58,911] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:25:59,030] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.128 seconds
+[2020-06-03 19:26:49,144] {scheduler_job.py:154} INFO - Started process (PID=18570) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:26:49,146] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:26:49,146] {logging_mixin.py:112} INFO - [2020-06-03 19:26:49,146] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:26:49,152] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:26:49,303] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.160 seconds
+[2020-06-03 19:27:39,006] {scheduler_job.py:154} INFO - Started process (PID=18651) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:27:39,008] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:27:39,009] {logging_mixin.py:112} INFO - [2020-06-03 19:27:39,009] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:27:39,013] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:27:39,148] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.142 seconds
+[2020-06-03 19:28:29,056] {scheduler_job.py:154} INFO - Started process (PID=18741) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:28:29,058] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:28:29,058] {logging_mixin.py:112} INFO - [2020-06-03 19:28:29,058] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:28:29,063] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:28:29,278] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.222 seconds
+[2020-06-03 19:29:19,110] {scheduler_job.py:154} INFO - Started process (PID=18842) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:29:19,112] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:29:19,112] {logging_mixin.py:112} INFO - [2020-06-03 19:29:19,112] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:29:19,116] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:29:19,455] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.346 seconds
+[2020-06-03 19:30:09,162] {scheduler_job.py:154} INFO - Started process (PID=18985) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:30:09,164] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:30:09,165] {logging_mixin.py:112} INFO - [2020-06-03 19:30:09,165] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:30:09,186] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:30:09,382] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.220 seconds
+[2020-06-03 19:30:59,209] {scheduler_job.py:154} INFO - Started process (PID=19096) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:30:59,212] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:30:59,212] {logging_mixin.py:112} INFO - [2020-06-03 19:30:59,212] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:30:59,219] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:30:59,361] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.152 seconds
+[2020-06-03 19:31:49,501] {scheduler_job.py:154} INFO - Started process (PID=19251) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:31:49,503] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:31:49,504] {logging_mixin.py:112} INFO - [2020-06-03 19:31:49,504] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:31:49,512] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:31:49,706] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.205 seconds
+[2020-06-03 19:32:39,314] {scheduler_job.py:154} INFO - Started process (PID=19355) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:32:39,316] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:32:39,316] {logging_mixin.py:112} INFO - [2020-06-03 19:32:39,316] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:32:39,321] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:32:39,465] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.151 seconds
+[2020-06-03 19:33:29,370] {scheduler_job.py:154} INFO - Started process (PID=19501) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:33:29,372] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:33:29,373] {logging_mixin.py:112} INFO - [2020-06-03 19:33:29,373] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:33:29,378] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:33:29,655] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.286 seconds
+[2020-06-03 19:34:19,423] {scheduler_job.py:154} INFO - Started process (PID=19612) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:34:19,425] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:34:19,425] {logging_mixin.py:112} INFO - [2020-06-03 19:34:19,425] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:34:19,430] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:34:19,765] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.342 seconds
+[2020-06-03 19:35:09,470] {scheduler_job.py:154} INFO - Started process (PID=19741) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:35:09,471] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:35:09,472] {logging_mixin.py:112} INFO - [2020-06-03 19:35:09,472] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:35:09,476] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:35:09,624] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.154 seconds
+[2020-06-03 19:35:59,530] {scheduler_job.py:154} INFO - Started process (PID=19854) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:35:59,532] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:35:59,532] {logging_mixin.py:112} INFO - [2020-06-03 19:35:59,532] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:35:59,537] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:35:59,706] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.176 seconds
+[2020-06-03 19:36:49,997] {scheduler_job.py:154} INFO - Started process (PID=19957) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:36:50,001] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:36:50,002] {logging_mixin.py:112} INFO - [2020-06-03 19:36:50,002] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:36:50,006] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:36:50,346] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.349 seconds
+[2020-06-03 19:37:40,042] {scheduler_job.py:154} INFO - Started process (PID=20164) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:37:40,044] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:37:40,044] {logging_mixin.py:112} INFO - [2020-06-03 19:37:40,044] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:37:40,050] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:37:40,218] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.176 seconds
+[2020-06-03 19:38:30,100] {scheduler_job.py:154} INFO - Started process (PID=20309) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:38:30,102] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:38:30,102] {logging_mixin.py:112} INFO - [2020-06-03 19:38:30,102] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:38:30,108] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:38:30,297] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.198 seconds
+[2020-06-03 19:39:20,338] {scheduler_job.py:154} INFO - Started process (PID=20681) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:39:20,342] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:39:20,343] {logging_mixin.py:112} INFO - [2020-06-03 19:39:20,343] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:39:20,351] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:39:20,568] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.230 seconds
+[2020-06-03 19:40:10,205] {scheduler_job.py:154} INFO - Started process (PID=20890) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:40:10,527] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:40:10,528] {logging_mixin.py:112} INFO - [2020-06-03 19:40:10,528] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:40:10,540] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:40:11,554] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 1.349 seconds
+[2020-06-03 19:41:05,856] {scheduler_job.py:154} INFO - Started process (PID=21136) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:41:05,864] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:41:05,866] {logging_mixin.py:112} INFO - [2020-06-03 19:41:05,864] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:41:05,871] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:41:06,003] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.147 seconds
+[2020-06-03 19:41:56,143] {scheduler_job.py:154} INFO - Started process (PID=21288) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:41:56,145] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:41:56,146] {logging_mixin.py:112} INFO - [2020-06-03 19:41:56,145] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:41:56,152] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:41:56,295] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.152 seconds
+[2020-06-03 19:42:45,954] {scheduler_job.py:154} INFO - Started process (PID=21409) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:42:45,958] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:42:45,959] {logging_mixin.py:112} INFO - [2020-06-03 19:42:45,959] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:42:45,965] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:42:46,096] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.142 seconds
+[2020-06-03 19:43:36,006] {scheduler_job.py:154} INFO - Started process (PID=21506) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:43:36,009] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:43:36,010] {logging_mixin.py:112} INFO - [2020-06-03 19:43:36,009] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:43:36,014] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:43:36,142] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.136 seconds
+[2020-06-03 19:44:26,055] {scheduler_job.py:154} INFO - Started process (PID=21641) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:44:26,057] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:44:26,057] {logging_mixin.py:112} INFO - [2020-06-03 19:44:26,057] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:44:26,062] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:44:26,421] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.366 seconds
+[2020-06-03 19:45:16,098] {scheduler_job.py:154} INFO - Started process (PID=21752) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:45:16,099] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:45:16,100] {logging_mixin.py:112} INFO - [2020-06-03 19:45:16,100] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:45:16,106] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:45:16,235] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.138 seconds
+[2020-06-03 19:46:06,155] {scheduler_job.py:154} INFO - Started process (PID=21850) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:46:06,159] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:46:06,159] {logging_mixin.py:112} INFO - [2020-06-03 19:46:06,159] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:46:06,168] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:46:06,334] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.178 seconds
+[2020-06-03 19:46:56,389] {scheduler_job.py:154} INFO - Started process (PID=21964) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:46:56,392] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:46:56,392] {logging_mixin.py:112} INFO - [2020-06-03 19:46:56,392] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:46:56,397] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:46:56,561] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.171 seconds
+[2020-06-03 19:47:46,282] {scheduler_job.py:154} INFO - Started process (PID=22072) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:47:46,284] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:47:46,285] {logging_mixin.py:112} INFO - [2020-06-03 19:47:46,285] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:47:46,289] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:47:46,537] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.254 seconds
+[2020-06-03 19:48:36,611] {scheduler_job.py:154} INFO - Started process (PID=22172) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:48:36,613] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:48:36,613] {logging_mixin.py:112} INFO - [2020-06-03 19:48:36,613] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:48:36,618] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:48:36,744] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.133 seconds
+[2020-06-03 19:49:26,849] {scheduler_job.py:154} INFO - Started process (PID=22267) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:49:26,851] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:49:26,851] {logging_mixin.py:112} INFO - [2020-06-03 19:49:26,851] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:49:26,857] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:49:27,014] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.166 seconds
+[2020-06-03 19:50:16,710] {scheduler_job.py:154} INFO - Started process (PID=22360) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:50:16,712] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:50:16,713] {logging_mixin.py:112} INFO - [2020-06-03 19:50:16,713] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:50:16,717] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:50:16,854] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.144 seconds
+[2020-06-03 19:51:06,761] {scheduler_job.py:154} INFO - Started process (PID=22462) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:51:06,765] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:51:06,765] {logging_mixin.py:112} INFO - [2020-06-03 19:51:06,765] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:51:06,772] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:51:06,909] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.148 seconds
+[2020-06-03 19:51:56,813] {scheduler_job.py:154} INFO - Started process (PID=22566) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:51:56,815] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:51:56,816] {logging_mixin.py:112} INFO - [2020-06-03 19:51:56,816] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:51:56,820] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:51:57,311] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.498 seconds
+[2020-06-03 19:52:46,868] {scheduler_job.py:154} INFO - Started process (PID=22660) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:52:46,871] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:52:46,871] {logging_mixin.py:112} INFO - [2020-06-03 19:52:46,871] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:52:46,876] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:52:47,046] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.178 seconds
+[2020-06-03 19:53:36,921] {scheduler_job.py:154} INFO - Started process (PID=22762) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:53:36,923] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:53:36,924] {logging_mixin.py:112} INFO - [2020-06-03 19:53:36,923] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:53:36,928] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:53:37,094] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.173 seconds
+[2020-06-03 19:54:27,165] {scheduler_job.py:154} INFO - Started process (PID=22855) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:54:27,167] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:54:27,167] {logging_mixin.py:112} INFO - [2020-06-03 19:54:27,167] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:54:27,174] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:54:27,312] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.148 seconds
+[2020-06-03 19:55:17,021] {scheduler_job.py:154} INFO - Started process (PID=22949) to work on /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:55:17,023] {scheduler_job.py:1562} INFO - Processing file /home/isaias/airflow/dags/example_python.py for tasks to queue
+[2020-06-03 19:55:17,024] {logging_mixin.py:112} INFO - [2020-06-03 19:55:17,023] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:55:17,029] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['python_test']) retrieved from /home/isaias/airflow/dags/example_python.py
+[2020-06-03 19:55:17,244] {scheduler_job.py:162} INFO - Processing /home/isaias/airflow/dags/example_python.py took 0.223 seconds

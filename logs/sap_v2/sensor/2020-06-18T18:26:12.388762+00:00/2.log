@@ -1,0 +1,30 @@
+[2020-06-18 15:12:31,200] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sap_v2.sensor 2020-06-18T18:26:12.388762+00:00 [queued]>
+[2020-06-18 15:12:31,231] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sap_v2.sensor 2020-06-18T18:26:12.388762+00:00 [queued]>
+[2020-06-18 15:12:31,231] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 15:12:31,232] {taskinstance.py:880} INFO - Starting attempt 2 of 3
+[2020-06-18 15:12:31,232] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 15:12:31,252] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-18T18:26:12.388762+00:00
+[2020-06-18 15:12:31,255] {standard_task_runner.py:53} INFO - Started process 1849 to run task
+[2020-06-18 15:12:31,312] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sap_v2.sensor 2020-06-18T18:26:12.388762+00:00 [running]> strx
+[2020-06-18 15:12:31,343] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 15:16:00,803] {logging_mixin.py:112} INFO - [2020-06-18 15:16:00,801] {local_task_job.py:167} WARNING - State of this instance has been externally set to None. Taking the poison pill.
+[2020-06-18 15:16:00,853] {helpers.py:325} INFO - Sending Signals.SIGTERM to GPID 1849
+[2020-06-18 15:16:00,853] {taskinstance.py:954} ERROR - Received SIGTERM. Terminating subprocesses.
+[2020-06-18 15:16:00,869] {taskinstance.py:1145} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/isaias/airflow/dags/extract_SAP.py", line 112, in sensor
+    sleep(5)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 956, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2020-06-18 15:16:00,953] {taskinstance.py:1187} INFO - All retries failed; marking task as FAILED.dag_id=sap_v2, task_id=sensor, execution_date=20200618T182612, start_date=20200618T191231, end_date=20200618T191600
+[2020-06-18 15:16:01,036] {helpers.py:291} INFO - Process psutil.Process(pid=1849, status='terminated') (1849) terminated with exit code 1
+[2020-06-18 15:16:05,777] {logging_mixin.py:112} INFO - [2020-06-18 15:16:05,777] {local_task_job.py:103} INFO - Task exited with return code 1

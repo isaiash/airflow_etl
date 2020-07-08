@@ -1,0 +1,11 @@
+[2020-06-18 14:27:25,400] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_prensa_v2.sensor 2020-06-18T17:36:12.276193+00:00 [queued]>
+[2020-06-18 14:27:25,452] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_prensa_v2.sensor 2020-06-18T17:36:12.276193+00:00 [queued]>
+[2020-06-18 14:27:25,453] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 14:27:25,453] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-06-18 14:27:25,453] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 14:27:25,521] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-18T17:36:12.276193+00:00
+[2020-06-18 14:27:25,525] {standard_task_runner.py:53} INFO - Started process 27396 to run task
+[2020-06-18 14:27:25,678] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sh_prensa_v2.sensor 2020-06-18T17:36:12.276193+00:00 [running]> strx
+[2020-06-18 14:27:25,700] {logging_mixin.py:112} INFO - Sensoring...

@@ -1,0 +1,15 @@
+[2020-06-18 13:16:24,060] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_preprensa_v1.sensor 2020-06-18T17:16:20.946427+00:00 [queued]>
+[2020-06-18 13:16:24,080] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_preprensa_v1.sensor 2020-06-18T17:16:20.946427+00:00 [queued]>
+[2020-06-18 13:16:24,080] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 13:16:24,080] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 13:16:24,080] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 13:16:24,105] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-18T17:16:20.946427+00:00
+[2020-06-18 13:16:24,108] {standard_task_runner.py:53} INFO - Started process 6896 to run task
+[2020-06-18 13:16:24,255] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sh_preprensa_v1.sensor 2020-06-18T17:16:20.946427+00:00 [running]> strx
+[2020-06-18 13:16:24,278] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 13:16:24,318] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/SH/ZemBoo/Out/Preprensa/preprensa-2020-06-08-18-21-37.sho']
+[2020-06-18 13:16:24,319] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/SH/ZemBoo/Out/Preprensa/preprensa-2020-06-08-18-21-37.sho']
+[2020-06-18 13:16:24,416] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=sh_preprensa_v1, task_id=sensor, execution_date=20200618T171620, start_date=20200618T171624, end_date=20200618T171624
+[2020-06-18 13:16:34,045] {logging_mixin.py:112} INFO - [2020-06-18 13:16:34,045] {local_task_job.py:103} INFO - Task exited with return code 0

@@ -1,0 +1,13 @@
+[2020-06-18 22:57:49,663] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.save_raw 2020-06-19T02:57:37.436324+00:00 [queued]>
+[2020-06-18 22:57:49,700] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.save_raw 2020-06-19T02:57:37.436324+00:00 [queued]>
+[2020-06-18 22:57:49,701] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 22:57:49,701] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 22:57:49,701] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 22:57:49,731] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): save_raw> on 2020-06-19T02:57:37.436324+00:00
+[2020-06-18 22:57:49,735] {standard_task_runner.py:53} INFO - Started process 16272 to run task
+[2020-06-18 22:57:49,809] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: mis.save_raw 2020-06-19T02:57:37.436324+00:00 [running]> strx
+[2020-06-18 22:57:49,838] {logging_mixin.py:112} INFO - Saving raw...
+[2020-06-18 22:57:49,851] {python_operator.py:114} INFO - Done. Returned value was: save_raw_file
+[2020-06-18 22:57:49,906] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=mis, task_id=save_raw, execution_date=20200619T025737, start_date=20200619T025749, end_date=20200619T025749

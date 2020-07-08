@@ -1,0 +1,14 @@
+[2020-06-18 21:50:00,384] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.save_raw 2020-06-19T01:49:46.691750+00:00 [queued]>
+[2020-06-18 21:50:00,488] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.save_raw 2020-06-19T01:49:46.691750+00:00 [queued]>
+[2020-06-18 21:50:00,489] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:50:00,489] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:50:00,489] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:50:00,520] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): save_raw> on 2020-06-19T01:49:46.691750+00:00
+[2020-06-18 21:50:00,525] {standard_task_runner.py:53} INFO - Started process 20761 to run task
+[2020-06-18 21:50:00,708] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: recepcion.save_raw 2020-06-19T01:49:46.691750+00:00 [running]> strx
+[2020-06-18 21:50:00,762] {logging_mixin.py:112} INFO - Saving raw...
+[2020-06-18 21:50:00,800] {python_operator.py:114} INFO - Done. Returned value was: save_raw_file
+[2020-06-18 21:50:00,897] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=recepcion, task_id=save_raw, execution_date=20200619T014946, start_date=20200619T015000, end_date=20200619T015000
+[2020-06-18 21:50:10,273] {logging_mixin.py:112} INFO - [2020-06-18 21:50:10,273] {local_task_job.py:103} INFO - Task exited with return code 0

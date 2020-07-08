@@ -1,0 +1,13 @@
+[2020-06-18 21:47:53,140] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado.trigger_rerun 2020-06-19T01:47:20+00:00 [queued]>
+[2020-06-18 21:47:53,259] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado.trigger_rerun 2020-06-19T01:47:20+00:00 [queued]>
+[2020-06-18 21:47:53,259] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:47:53,260] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:47:53,260] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:47:53,312] {taskinstance.py:900} INFO - Executing <Task(TriggerDagRunOperator): trigger_rerun> on 2020-06-19T01:47:20+00:00
+[2020-06-18 21:47:53,326] {standard_task_runner.py:53} INFO - Started process 17826 to run task
+[2020-06-18 21:47:53,571] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sh_macerado.trigger_rerun 2020-06-19T01:47:20+00:00 [running]> strx
+[2020-06-18 21:47:53,659] {logging_mixin.py:112} INFO - [2020-06-18 21:47:53,658] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/extract_SH_macerado.py
+[2020-06-18 21:47:53,934] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=sh_macerado, task_id=trigger_rerun, execution_date=20200619T014720, start_date=20200619T014753, end_date=20200619T014753
+[2020-06-18 21:48:03,001] {logging_mixin.py:112} INFO - [2020-06-18 21:48:03,001] {local_task_job.py:103} INFO - Task exited with return code 0

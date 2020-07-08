@@ -1,0 +1,13 @@
+[2020-06-24 19:06:40,509] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-20T08:00:00+00:00 [queued]>
+[2020-06-24 19:06:40,543] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-20T08:00:00+00:00 [queued]>
+[2020-06-24 19:06:40,544] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:06:40,544] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-24 19:06:40,544] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:06:40,597] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): integrate_files> on 2020-06-20T08:00:00+00:00
+[2020-06-24 19:06:40,604] {standard_task_runner.py:53} INFO - Started process 7381 to run task
+[2020-06-24 19:06:40,842] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: integrator.integrate_files 2020-06-20T08:00:00+00:00 [running]> strx
+[2020-06-24 19:06:40,913] {python_operator.py:114} INFO - Done. Returned value was: 1
+[2020-06-24 19:06:40,991] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=integrator, task_id=integrate_files, execution_date=20200620T080000, start_date=20200624T230640, end_date=20200624T230640
+[2020-06-24 19:06:50,460] {logging_mixin.py:112} INFO - [2020-06-24 19:06:50,460] {local_task_job.py:103} INFO - Task exited with return code 0

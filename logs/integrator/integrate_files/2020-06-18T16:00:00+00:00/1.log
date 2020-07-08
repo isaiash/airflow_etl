@@ -1,0 +1,87 @@
+[2020-06-18 21:07:31,382] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:07:31,435] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:07:31,435] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:07:31,435] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:07:31,435] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:07:31,467] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): integrate_files> on 2020-06-18T16:00:00+00:00
+[2020-06-18 21:07:31,471] {standard_task_runner.py:53} INFO - Started process 18737 to run task
+[2020-06-18 21:07:31,603] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [running]> strx
+[2020-06-18 21:07:31,654] {taskinstance.py:1145} ERROR - read_csv() missing 2 required positional arguments: 'include_names' and 'separator'
+Traceback (most recent call last):
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/isaias/airflow/dags/integrator.py", line 95, in integrate
+    data = read_csv(PROCESSED_FOLDER+"recepcion/Recepcion_634.csv")
+TypeError: read_csv() missing 2 required positional arguments: 'include_names' and 'separator'
+[2020-06-18 21:07:31,685] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-06-18 21:07:41,337] {logging_mixin.py:112} INFO - [2020-06-18 21:07:41,337] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-06-18 21:14:48,740] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:14:48,761] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:14:48,761] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:14:48,761] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:14:48,761] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:14:48,783] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): integrate_files> on 2020-06-18T16:00:00+00:00
+[2020-06-18 21:14:48,785] {standard_task_runner.py:53} INFO - Started process 29122 to run task
+[2020-06-18 21:14:48,846] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [running]> strx
+[2020-06-18 21:14:48,897] {python_operator.py:114} INFO - Done. Returned value was: 1
+[2020-06-18 21:14:48,949] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=integrator, task_id=integrate_files, execution_date=20200618T160000, start_date=20200619T011448, end_date=20200619T011448
+[2020-06-18 21:14:58,719] {logging_mixin.py:112} INFO - [2020-06-18 21:14:58,718] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-06-18 21:31:12,650] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:31:12,668] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:31:12,668] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:31:12,668] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:31:12,668] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:31:12,693] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): integrate_files> on 2020-06-18T16:00:00+00:00
+[2020-06-18 21:31:12,696] {standard_task_runner.py:53} INFO - Started process 11774 to run task
+[2020-06-18 21:31:12,772] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [running]> strx
+[2020-06-18 21:31:12,795] {taskinstance.py:1145} ERROR - [Errno 2] No such file or directory: '/home/isaias/airflow/repository/processed_data/recepcion/Recepcion_634.csv'
+Traceback (most recent call last):
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/isaias/anaconda3/envs/cmpc/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/isaias/airflow/dags/integrator.py", line 95, in integrate
+    data = read_csv(PROCESSED_FOLDER+"recepcion/Recepcion_634.csv", include_names=1, separator=',')
+  File "/home/isaias/airflow/dags/integrator.py", line 70, in read_csv
+    with open(filepath, newline='') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/isaias/airflow/repository/processed_data/recepcion/Recepcion_634.csv'
+[2020-06-18 21:31:12,796] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-06-18 21:31:22,633] {logging_mixin.py:112} INFO - [2020-06-18 21:31:22,633] {local_task_job.py:103} INFO - Task exited with return code 1
+[2020-06-18 21:53:16,347] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:53:16,409] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 21:53:16,409] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:53:16,409] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:53:16,413] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:53:16,448] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): integrate_files> on 2020-06-18T16:00:00+00:00
+[2020-06-18 21:53:16,470] {standard_task_runner.py:53} INFO - Started process 24542 to run task
+[2020-06-18 21:53:16,678] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [running]> strx
+[2020-06-18 21:53:16,805] {python_operator.py:114} INFO - Done. Returned value was: 1
+[2020-06-18 21:53:16,927] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=integrator, task_id=integrate_files, execution_date=20200618T160000, start_date=20200619T015316, end_date=20200619T015316
+[2020-06-18 21:53:26,278] {logging_mixin.py:112} INFO - [2020-06-18 21:53:26,278] {local_task_job.py:103} INFO - Task exited with return code 0
+[2020-06-18 22:18:30,389] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 22:18:30,417] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [queued]>
+[2020-06-18 22:18:30,417] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 22:18:30,417] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 22:18:30,417] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 22:18:30,448] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): integrate_files> on 2020-06-18T16:00:00+00:00
+[2020-06-18 22:18:30,452] {standard_task_runner.py:53} INFO - Started process 2174 to run task
+[2020-06-18 22:18:30,551] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: integrator.integrate_files 2020-06-18T16:00:00+00:00 [running]> strx
+[2020-06-18 22:18:30,625] {python_operator.py:114} INFO - Done. Returned value was: 1
+[2020-06-18 22:18:30,693] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=integrator, task_id=integrate_files, execution_date=20200618T160000, start_date=20200619T021830, end_date=20200619T021830
+[2020-06-18 22:18:40,354] {logging_mixin.py:112} INFO - [2020-06-18 22:18:40,354] {local_task_job.py:103} INFO - Task exited with return code 0

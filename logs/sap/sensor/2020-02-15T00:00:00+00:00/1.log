@@ -1,0 +1,18 @@
+[2020-06-18 21:06:17,821] {logging_mixin.py:112} INFO - Sending to executor.
+[2020-06-18 21:06:17,824] {logging_mixin.py:112} INFO - [2020-06-18 21:06:17,823] {base_executor.py:58} INFO - Adding to queue: ['airflow', 'run', 'sap', 'sensor', '2020-02-15T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/extract_SAP.py']
+[2020-06-18 21:06:17,839] {logging_mixin.py:112} INFO - [2020-06-18 21:06:17,838] {local_executor.py:85} INFO - QueuedLocalWorker running ['airflow', 'run', 'sap', 'sensor', '2020-02-15T00:00:00+00:00', '--local', '--pool', 'default_pool', '-sd', 'DAGS_FOLDER/extract_SAP.py']
+[2020-06-18 21:06:19,421] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sap.sensor 2020-02-15T00:00:00+00:00 [None]>
+[2020-06-18 21:06:19,515] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sap.sensor 2020-02-15T00:00:00+00:00 [None]>
+[2020-06-18 21:06:19,515] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:06:19,515] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:06:19,516] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:06:19,565] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-02-15T00:00:00+00:00
+[2020-06-18 21:06:19,568] {standard_task_runner.py:53} INFO - Started process 17801 to run task
+[2020-06-18 21:06:19,628] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sap.sensor 2020-02-15T00:00:00+00:00 [running]> strx
+[2020-06-18 21:06:19,651] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 21:06:19,651] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/SAP/BD para calculo reposo.xlsx']
+[2020-06-18 21:06:19,651] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/SAP/BD para calculo reposo.xlsx']
+[2020-06-18 21:06:19,754] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=sap, task_id=sensor, execution_date=20200215T000000, start_date=20200619T010619, end_date=20200619T010619
+[2020-06-18 21:06:29,397] {logging_mixin.py:112} INFO - [2020-06-18 21:06:29,397] {local_task_job.py:103} INFO - Task exited with return code 0

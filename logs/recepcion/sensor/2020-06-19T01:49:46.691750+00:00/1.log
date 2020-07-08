@@ -1,0 +1,15 @@
+[2020-06-18 21:49:51,571] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T01:49:46.691750+00:00 [queued]>
+[2020-06-18 21:49:51,649] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T01:49:46.691750+00:00 [queued]>
+[2020-06-18 21:49:51,651] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:49:51,652] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:49:51,652] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:49:51,723] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-19T01:49:46.691750+00:00
+[2020-06-18 21:49:51,731] {standard_task_runner.py:53} INFO - Started process 20543 to run task
+[2020-06-18 21:49:51,933] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: recepcion.sensor 2020-06-19T01:49:46.691750+00:00 [running]> strx
+[2020-06-18 21:49:51,991] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 21:49:51,991] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (4th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (5th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (another copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (3rd copy).slk']
+[2020-06-18 21:49:51,992] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (4th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (5th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (another copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (3rd copy).slk']
+[2020-06-18 21:49:52,055] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=recepcion, task_id=sensor, execution_date=20200619T014946, start_date=20200619T014951, end_date=20200619T014952
+[2020-06-18 21:50:01,481] {logging_mixin.py:112} INFO - [2020-06-18 21:50:01,481] {local_task_job.py:103} INFO - Task exited with return code 0

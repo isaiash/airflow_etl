@@ -1,0 +1,14 @@
+[2020-06-18 14:28:44,775] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado_v3.save_processed 2020-06-18T17:32:17.618288+00:00 [queued]>
+[2020-06-18 14:28:44,821] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado_v3.save_processed 2020-06-18T17:32:17.618288+00:00 [queued]>
+[2020-06-18 14:28:44,822] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 14:28:44,822] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 14:28:44,822] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 14:28:44,846] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): save_processed> on 2020-06-18T17:32:17.618288+00:00
+[2020-06-18 14:28:44,850] {standard_task_runner.py:53} INFO - Started process 28552 to run task
+[2020-06-18 14:28:45,006] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sh_macerado_v3.save_processed 2020-06-18T17:32:17.618288+00:00 [running]> strx
+[2020-06-18 14:28:45,039] {logging_mixin.py:112} INFO - Saving processed...
+[2020-06-18 14:28:45,134] {python_operator.py:114} INFO - Done. Returned value was: integrate_data
+[2020-06-18 14:28:45,245] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=sh_macerado_v3, task_id=save_processed, execution_date=20200618T173217, start_date=20200618T182844, end_date=20200618T182845
+[2020-06-18 14:28:54,717] {logging_mixin.py:112} INFO - [2020-06-18 14:28:54,717] {local_task_job.py:103} INFO - Task exited with return code 0

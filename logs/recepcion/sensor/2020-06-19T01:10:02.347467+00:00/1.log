@@ -1,0 +1,15 @@
+[2020-06-18 21:10:10,132] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T01:10:02.347467+00:00 [queued]>
+[2020-06-18 21:10:10,181] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: recepcion.sensor 2020-06-19T01:10:02.347467+00:00 [queued]>
+[2020-06-18 21:10:10,181] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:10:10,181] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-18 21:10:10,181] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 21:10:10,214] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-19T01:10:02.347467+00:00
+[2020-06-18 21:10:10,218] {standard_task_runner.py:53} INFO - Started process 22814 to run task
+[2020-06-18 21:10:10,468] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: recepcion.sensor 2020-06-19T01:10:02.347467+00:00 [running]> strx
+[2020-06-18 21:10:10,503] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-18 21:10:25,517] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (6th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (5th copy).slk']
+[2020-06-18 21:10:25,518] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/Recepcion/Recepcion_634 (6th copy).slk', '/home/isaias/cmpc_data/Recepcion/Recepcion_634 (5th copy).slk']
+[2020-06-18 21:10:25,962] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=recepcion, task_id=sensor, execution_date=20200619T011002, start_date=20200619T011010, end_date=20200619T011025
+[2020-06-18 21:10:30,209] {logging_mixin.py:112} INFO - [2020-06-18 21:10:30,209] {local_task_job.py:103} INFO - Task exited with return code 0

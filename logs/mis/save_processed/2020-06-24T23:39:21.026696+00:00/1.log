@@ -1,0 +1,14 @@
+[2020-06-24 19:39:35,427] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.save_processed 2020-06-24T23:39:21.026696+00:00 [queued]>
+[2020-06-24 19:39:35,498] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.save_processed 2020-06-24T23:39:21.026696+00:00 [queued]>
+[2020-06-24 19:39:35,498] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:39:35,498] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-24 19:39:35,498] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:39:35,516] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): save_processed> on 2020-06-24T23:39:21.026696+00:00
+[2020-06-24 19:39:35,518] {standard_task_runner.py:53} INFO - Started process 19726 to run task
+[2020-06-24 19:39:35,633] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: mis.save_processed 2020-06-24T23:39:21.026696+00:00 [running]> strx
+[2020-06-24 19:39:35,692] {logging_mixin.py:112} INFO - Saving processed...
+[2020-06-24 19:39:37,124] {python_operator.py:114} INFO - Done. Returned value was: integrate_data
+[2020-06-24 19:39:37,312] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=mis, task_id=save_processed, execution_date=20200624T233921, start_date=20200624T233935, end_date=20200624T233937
+[2020-06-24 19:39:45,377] {logging_mixin.py:112} INFO - [2020-06-24 19:39:45,377] {local_task_job.py:103} INFO - Task exited with return code 0

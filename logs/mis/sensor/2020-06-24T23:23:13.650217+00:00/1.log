@@ -1,0 +1,15 @@
+[2020-06-24 19:23:19,473] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.sensor 2020-06-24T23:23:13.650217+00:00 [queued]>
+[2020-06-24 19:23:19,505] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.sensor 2020-06-24T23:23:13.650217+00:00 [queued]>
+[2020-06-24 19:23:19,506] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:23:19,506] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-24 19:23:19,506] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:23:19,534] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-24T23:23:13.650217+00:00
+[2020-06-24 19:23:19,539] {standard_task_runner.py:53} INFO - Started process 29669 to run task
+[2020-06-24 19:23:19,642] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: mis.sensor 2020-06-24T23:23:13.650217+00:00 [running]> strx
+[2020-06-24 19:23:19,680] {logging_mixin.py:112} INFO - Sensoring...
+[2020-06-24 19:23:19,680] {logging_mixin.py:112} INFO - ['/home/isaias/cmpc_data/MIS/plywood.xlsx']
+[2020-06-24 19:23:19,680] {python_operator.py:114} INFO - Done. Returned value was: ['/home/isaias/cmpc_data/MIS/plywood.xlsx']
+[2020-06-24 19:23:19,745] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=mis, task_id=sensor, execution_date=20200624T232313, start_date=20200624T232319, end_date=20200624T232319
+[2020-06-24 19:23:29,441] {logging_mixin.py:112} INFO - [2020-06-24 19:23:29,440] {local_task_job.py:103} INFO - Task exited with return code 0

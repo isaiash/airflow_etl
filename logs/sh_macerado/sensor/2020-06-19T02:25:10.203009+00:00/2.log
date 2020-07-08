@@ -1,0 +1,11 @@
+[2020-06-24 19:10:23,029] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado.sensor 2020-06-19T02:25:10.203009+00:00 [queued]>
+[2020-06-24 19:10:23,081] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: sh_macerado.sensor 2020-06-19T02:25:10.203009+00:00 [queued]>
+[2020-06-24 19:10:23,081] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:10:23,081] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-06-24 19:10:23,081] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 19:10:23,137] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): sensor> on 2020-06-19T02:25:10.203009+00:00
+[2020-06-24 19:10:23,141] {standard_task_runner.py:53} INFO - Started process 12363 to run task
+[2020-06-24 19:10:23,318] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: sh_macerado.sensor 2020-06-19T02:25:10.203009+00:00 [running]> strx
+[2020-06-24 19:10:23,383] {logging_mixin.py:112} INFO - Sensoring...

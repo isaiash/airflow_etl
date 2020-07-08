@@ -1,0 +1,13 @@
+[2020-06-24 20:09:20,962] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.trigger_rerun 2020-06-25T00:09:03.606892+00:00 [queued]>
+[2020-06-24 20:09:20,992] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: mis.trigger_rerun 2020-06-25T00:09:03.606892+00:00 [queued]>
+[2020-06-24 20:09:20,992] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 20:09:20,992] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-24 20:09:20,993] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-24 20:09:21,012] {taskinstance.py:900} INFO - Executing <Task(TriggerDagRunOperator): trigger_rerun> on 2020-06-25T00:09:03.606892+00:00
+[2020-06-24 20:09:21,014] {standard_task_runner.py:53} INFO - Started process 26310 to run task
+[2020-06-24 20:09:21,144] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: mis.trigger_rerun 2020-06-25T00:09:03.606892+00:00 [running]> strx
+[2020-06-24 20:09:21,200] {logging_mixin.py:112} INFO - [2020-06-24 20:09:21,198] {dagbag.py:396} INFO - Filling up the DagBag from /home/isaias/airflow/dags/extract_MIS.py
+[2020-06-24 20:09:21,323] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=mis, task_id=trigger_rerun, execution_date=20200625T000903, start_date=20200625T000920, end_date=20200625T000921
+[2020-06-24 20:09:30,933] {logging_mixin.py:112} INFO - [2020-06-24 20:09:30,932] {local_task_job.py:103} INFO - Task exited with return code 0

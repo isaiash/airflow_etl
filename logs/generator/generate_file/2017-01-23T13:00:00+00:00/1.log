@@ -1,0 +1,15 @@
+[2020-06-10 09:55:45,200] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: generator.generate_file 2017-01-23T13:00:00+00:00 [queued]>
+[2020-06-10 09:55:45,207] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: generator.generate_file 2017-01-23T13:00:00+00:00 [queued]>
+[2020-06-10 09:55:45,207] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 09:55:45,207] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-10 09:55:45,207] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 09:55:45,368] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): generate_file> on 2017-01-23T13:00:00+00:00
+[2020-06-10 09:55:45,370] {standard_task_runner.py:53} INFO - Started process 11986 to run task
+[2020-06-10 09:55:45,513] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: generator.generate_file 2017-01-23T13:00:00+00:00 [running]> strx
+[2020-06-10 09:55:45,522] {logging_mixin.py:112} INFO - Generating  1591797345 ...
+[2020-06-10 09:55:45,523] {logging_mixin.py:112} INFO - Finished.
+[2020-06-10 09:55:47,525] {python_operator.py:114} INFO - Done. Returned value was: _
+[2020-06-10 09:55:47,682] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=generator, task_id=generate_file, execution_date=20170123T130000, start_date=20200610T135545, end_date=20200610T135547
+[2020-06-10 09:55:55,079] {logging_mixin.py:112} INFO - [2020-06-10 09:55:55,079] {local_task_job.py:103} INFO - Task exited with return code 0
